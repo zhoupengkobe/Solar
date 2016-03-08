@@ -33,7 +33,9 @@ public class SolarFrame extends MyFrame {
 	
 	Planet Jupiter=new Planet("images/Jupiter.jpg", 600, 400, 0.7, sun);
 
-	
+	/**
+	 * 解决闪烁问题
+	 */
     private Image iBuffer;  
     private Graphics gBuffer; 
 	
